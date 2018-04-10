@@ -47,19 +47,18 @@
 
 
 	<div class="container purtal-container">
+		<h1 class="purltal-header text-center">pURLtal</h1>
 		{% for kategori in data|sort %}
 			<div class="row">
 				<div class="container purtal-container">
-					<center>
-						<h3 class="purltal-kategori">{{ kategori }}</h3>
-						<button type="button" class="btn btn-sm" data-circle="{{ kategori }}">show/hide</button>
-					</center>
+						<h3 class="purltal-kategori text-center">{{ kategori }}</h3>
+						<center><button type="button" class="btn btn-sm" data-circle="{{ kategori }}">show/hide</button></center>
 					<div class="row justify-content-center">
 						{% for subkategori in data[kategori]|sort %}
 							{% for lank in data[kategori][subkategori] %}
 								<div class=" {{ kategori }}">
 									<a HREF="{{ lank['link'] }}" class="{{ site }}"><img class="smallPicture" src="{{ lank['picture'] }}" class="img-responsive"></a>
-									<center><p>{{ lank['name'] }} </p></center>
+									<p class="text-center">{{ lank['name'] }} </p>
 								</div>
 							{% endfor %}
 						{% endfor %}

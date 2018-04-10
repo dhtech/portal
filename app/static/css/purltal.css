@@ -10,8 +10,12 @@
 .purltal-link {
     margin-bottom: 1px;
 }
-.purltal-kategori {
+.purltal-header {
+    padding-top: 30px;
     font-size: 60px;
+}
+.purltal-kategori {
+    font-size: 35px;
     margin-bottom: 5px;
     padding-top: 20px;
 }
