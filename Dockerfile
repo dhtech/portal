@@ -12,6 +12,6 @@ RUN pip3 install -r requirements.txt
 
 EXPOSE 5001
 ENTRYPOINT ["/usr/bin/dumb-init", "--"]
-ENTRYPOINT ["python"]
+ENTRYPOINT ["python3"]
 CMD ["app.py"]
 
