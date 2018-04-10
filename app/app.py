@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    with open('urls.json', 'r') as f:
+    with open('urls/urls.json', 'r') as f:
         data = json.load(f)
     return render_template('purltal.html', data=data)
 
