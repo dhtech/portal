@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block container %}
+    <script>
+        var localStorageKey = "app_state";
+
+        var saved_state = localStorage.getItem(localStorageKey);
+
+        var default_state = {
+            {% for kategori in data %}
+                {{kategori}}: true,
+            {% endfor %}
+        }
+
+        var state = saved_state ? JSON.parse(saved_state) : default_state;
+
+        $(function() {
+            init();
+
+            $('.btn').on('click', function() {
+                var circle = $(this).attr('data-circle');
+                toggleCircle(circle, !state[circle]);
+            });
+        });
+
+
+        function init() {
+            for(var key in state) {
+                var is_displayed = state[key];
+                console.log(is_displayed);
+                toggleCircle(key, is_displayed);
+            }
+        }
+
+        function toggleCircle(circle, is_displayed) {
+            if (is_displayed) {
+                $('.'+circle).show()
+                state[circle] = true;
+            } else {
+                $('.'+circle).hide()
+                state[circle] = false;
+            }
+
+            localStorage.setItem(localStorageKey, JSON.stringify(state));
+        }
+    </script>
+
+
+	<div class="container purtal-container">
+		{% for kategori in data|sort %}
+			<div class="row">
+				<div class="container purtal-container">
+					<center>
+						<h3 class="purltal-kategori">{{ kategori }}</h3>
+						<button type="button" class="btn btn-sm" data-circle="{{ kategori }}">show/hide</button>
+					</center>
+					<div class="row justify-content-center">
+						{% for subkategori in data[kategori]|sort %}
+							{% for lank in data[kategori][subkategori] %}
+								<div class=" {{ kategori }}">
+									<a HREF="{{ lank['link'] }}" class="{{ site }}"><img class="smallPicture" src="{{ lank['picture'] }}" class="img-responsive"></a>
+									<center><p>{{ lank['name'] }} </p></center>
+								</div>
+							{% endfor %}
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+
+{% endblock %}

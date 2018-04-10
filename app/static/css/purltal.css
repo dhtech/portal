@@ -1,0 +1,40 @@
+.purltal-font {
+    font-family: 'Titillium Web', sans-serif;
+}
+.purltal-bg {
+    background-color: #e6e6e6;
+}
+.purltal-menu {
+    margin-bottom: 5px;
+}
+.purltal-link {
+    margin-bottom: 1px;
+}
+.purltal-kategori {
+    font-size: 60px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+
+.purtal-container {
+	width: 90%;
+}
+
+a.ops:link {
+    color: #ff0000;
+}
+a.ops:visited {
+    color: #e60000;
+}
+a.dev:link {
+    color: #0088CC;
+}
+a.dev:visited {
+    color: #0044CC;
+}
+
+.smallPicture {
+	width: 130px;
+	height: 130px;
+	margin: 10px;
+}
