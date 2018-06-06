@@ -1,4 +1,4 @@
-From debian:stretch
+FROM debian:testing-slim
 MAINTAINER Sebastian Svensson "ss@tinbox.nu"
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update -y; \
