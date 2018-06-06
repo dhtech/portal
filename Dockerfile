@@ -2,7 +2,8 @@ FROM debian:testing-slim
 MAINTAINER Sebastian Svensson "ss@tinbox.nu"
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update -y; \
-		DEBIAN_FRONTEND=noninteractive apt-get install -y python3-pip python3-dev build-essential
+		DEBIAN_FRONTEND=noninteractive apt-get install -y python3-pip \
+			python3-dev build-essential dumb-init
 
 
 COPY ./app /app
