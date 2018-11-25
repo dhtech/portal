@@ -1,5 +1,5 @@
 FROM debian:testing-slim
-MAINTAINER Sebastian Svensson "ss@tinbox.nu"
+LABEL maintaner="Sebastian Svensson <ss@tinbox.nu>"
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update -y; \
 		DEBIAN_FRONTEND=noninteractive apt-get install -y python3-pip \

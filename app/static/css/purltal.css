@@ -24,21 +24,16 @@
 	width: 90%;
 }
 
-a.ops:link {
-    color: #ff0000;
-}
-a.ops:visited {
-    color: #e60000;
-}
-a.dev:link {
-    color: #0088CC;
-}
-a.dev:visited {
-    color: #0044CC;
+a.icon-block {
+    display:inline-block;
+    width:10em;
+    float:left;
+    text-align:center;
 }
 
-.smallPicture {
-	width: 130px;
-	height: 130px;
-	margin: 10px;
-}
+a.icon-block i,
+a.icon-block span {
+    display:block;
+    width:100%;
+    clear:both;
+  }
