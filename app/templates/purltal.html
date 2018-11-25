@@ -57,10 +57,8 @@
             {% for subkategori in data[kategori]|sort %}
               {% for lank in data[kategori][subkategori] %}
                 <div class=" {{ kategori }}">
-                  <a href="{{ lank['link'] }}" class="icon-block">
-                    <i class="{{ lank['icon'] }}"></i>
-                    <span>{{ lank['name' ]}}</span>
-                  </a>
+                  <a HREF="{{ lank['link'] }}" class="{{ site }}"><img class="smallPicture" src="{{ lank['picture'] }}" class="img-responsive"></a>
+                  <p class="text-center">{{ lank['name'] }} </p>
                 </div>
               {% endfor %}
             {% endfor %}
