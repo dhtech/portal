@@ -128,6 +128,11 @@ body{
   background-size: 70px 70px;
   color: #000;
 }
+#menu a.trello{
+  background: #fff url('https://cdn.freebiesupply.com/logos/large/2x/vault-enterprise-logo-png-transparent.png') no-repeat center center;
+  background-size: 70px 70px;
+  color: #000;
+}
 
 /* CSS3 Effects */
 #menu  a {
