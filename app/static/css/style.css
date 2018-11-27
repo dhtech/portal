@@ -22,6 +22,7 @@ body{
 
 #menu a {
   float: left;
+  border-radius: 10px;
   display: block;
   color: #fff;
   text-decoration: none;
@@ -31,100 +32,100 @@ body{
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
-  height: 150px;
+  height: 120px;
   min-width: 100%;
   background-color: #666;
 }
 #menu .grafana{
   background: #333 url('https://seeklogo.com/images/G/grafana-logo-15BA0AFA8A-seeklogo.com.png') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
 }
 #menu .prometheus{
   background: #e6522c url('https://prometheus.io/assets/prometheus_logo_grey.svg') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
 }
 #menu .prometheus-fed{
   background: #e6522c url('https://prometheus.io/assets/prometheus_logo_grey.svg') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
 }
 #menu .alertmanager{
   background: #1fa67a url('../img/alertmanager.png') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
 }
 #menu .alertmanager-sto2{
   background: #1fa67a url('../img/alertmanager.png') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
 }
 #menu a.dhmap {
   background: #999966 url('../img/dhmap.png') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
 }
 #menu a.trac {
   background: #666 url('https://cdn.freebiesupply.com/logos/large/2x/trac-2-logo-png-transparent.png') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
 }
 #menu a.svn {
   background: #666 url('http://www.subversiondownload.com/images/subversion-logo.png') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
 }
 #menu a.buildstatus {
   background: #5375CA;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
 }
 #menu a.dhcpinfo{
-  background-size: 100px 100px;
+  background-size: 80px 80px;
   background: #f69;
 }
 #menu a.puppet{
   background: #444 url('https://pluralsight.imgix.net/paths/path-icons/puppet-4309c63760.png') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
 }
 #menu a.ticket{
   background: #5375CA url('http://ticket.event.dreamhack.se/styles/bg-clouds.png');
-  background-size: 100px 100px;
+  background-size: 80px 80px;
 }
 #menu a.dnsstat{
-  background-size: 100px 100px;
+  background-size: 80px 80px;
   background: #63c;
 }
 #menu a.tele{
   background: #699 url('http://image0.flaticon.com/icons/svg/114/114333.svg') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
   color: #000;
 }
 #menu a.netflow{
   background: #fc0 url('http://icon-icons.com/icons2/632/PNG/128/graph-5_icon-icons.com_58023.png') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
   color: #000;
 }
 #menu a.assets{
   background: #ccc url('https://www.allbarcodesystems.com/wp-content/uploads/2017/03/free-code-39-barcode.png') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
   color: #000;
 }
 #menu a.github{
   background: #000 url('https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
   color: #fff;
 }
 #menu a.circleci{
   background: #fff url('https://dng5l922vgz8f.cloudfront.net/media/filer_public/08/f9/08f9f828-40ec-46d7-949a-6d7982ebce97/circleci-logo.png') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
   color: #000;
 }
 #menu a.quay{
   background: #ccc url('https://cdn.worldvectorlogo.com/logos/quay.svg') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
   color: #000;
 }
 #menu a.codeclimate{
   background: #01c488 url('https://alookatommorow.github.io/assets/images/stack/climate.png') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
   color: #000;
 }
 #menu a.trello{
   background: #fff url('https://netstorage.ringcentral.com/dpw/apps/BsxqZkBRQaWJ414y5EQOUg/0f760275-f987-4233-ad1d-f8358b63cb4a.png') no-repeat center center;
-  background-size: 100px 100px;
+  background-size: 80px 80px;
   color: #000;
 }
 
