@@ -1,8 +1,8 @@
 body{
-    	font-family: 'Titillium Web', sans-serif;
-	background: url("static/img/background.png") no-repeat center center fixed;
-	background-size: cover;
-	color: #fff;
+  font-family: 'Titillium Web', sans-serif;
+  background: url("../img/background.png") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
 }
 
 .purltal-header {
@@ -15,138 +15,140 @@ body{
 }
 
 .purtal-container {
-	width: 80%;
+  width: 80%;
 }
 
 #menu {
-	float: left;
-	margin-top: 1%;
+  float: left;
+  margin-top: 1%;
 }
 
 #menu a {
-	float: left;
-	display: block;
-	color: #fff;
-	text-decoration: none;
-	text-align:center;
-	width:100%;
-	margin:5px;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;         /* Opera/IE 8+ */
-	height: 120px;
-	min-width: 100%;
-    	background-color: #666;
+  float: left;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align:center;
+  width:100%;
+  margin:5px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  height: 150px;
+  min-width: 100%;
+  background-color: #666;
 }
 #menu .grafana{
-    background: #333 url('https://seeklogo.com/images/G/grafana-logo-15BA0AFA8A-seeklogo.com.png') no-repeat center center;
-    background-size: auto 60%;
+  background: #333 url('https://seeklogo.com/images/G/grafana-logo-15BA0AFA8A-seeklogo.com.png') no-repeat center center;
+  background-size: 100px 100px;
 }
 #menu .prometheus{
-    background: #e6522c url('https://prometheus.io/assets/prometheus_logo_grey.svg') no-repeat center center;
-	background-size: 35%;
+  background: #e6522c url('https://prometheus.io/assets/prometheus_logo_grey.svg') no-repeat center center;
+  background-size: 100px 100px;
 }
 #menu .prometheus-fed{
-    background: #e6522c url('https://prometheus.io/assets/prometheus_logo_grey.svg') no-repeat center center;
-	background-size: 35%;
+  background: #e6522c url('https://prometheus.io/assets/prometheus_logo_grey.svg') no-repeat center center;
+  background-size: 100px 100px;
 }
 #menu .alertmanager{
-    background: #1fa67a url('../img/alertmanager.png') no-repeat center center;
-    background-size: auto 50%;
+  background: #1fa67a url('../img/alertmanager.png') no-repeat center center;
+  background-size: 100px 100px;
 }
 #menu .alertmanager-sto2{
-    background: #1fa67a url('../img/alertmanager.png') no-repeat center center;
-    background-size: auto 50%;
+  background: #1fa67a url('../img/alertmanager.png') no-repeat center center;
+  background-size: 100px 100px;
 }
 #menu a.dhmap {
-    background: #999966 url('../img/dhmap.png') no-repeat center center;
-    background-size: 65% auto;
+  background: #999966 url('../img/dhmap.png') no-repeat center center;
+  background-size: 65% 65%;
+  background-size: 100px 100px;
 }
 #menu a.buildstatus {
-    background: #5375CA;
+  background: #5375CA;
+  background-size: 100px 100px;
 }
 #menu a.dhcpinfo{
-    background: #f69;
+  background-size: 100px 100px;
+  background: #f69;
 }
 #menu a.puppet{
-    background: #444 url('https://pluralsight.imgix.net/paths/path-icons/puppet-4309c63760.png') no-repeat center center;
-	background-size: 80%;
-	line-height: 150px;
+  background: #444 url('https://pluralsight.imgix.net/paths/path-icons/puppet-4309c63760.png') no-repeat center center;
+  background-size: 100px 100px;
 }
 #menu a.ticket{
-    background: #5375CA url('http://ticket.event.dreamhack.se/styles/bg-clouds.png');
-	line-height: 150px;
+  background: #5375CA url('http://ticket.event.dreamhack.se/styles/bg-clouds.png');
+  background-size: 100px 100px;
 }
 #menu a.dnsstat{
-    background: #63c;
-	line-height: 150px;
+  background-size: 100px 100px;
+  background: #63c;
 }
 #menu a.tele{
-    background: #699 url('http://image0.flaticon.com/icons/svg/114/114333.svg') no-repeat center center;
-	background-size: 40%;
-	color: #000;
+  background: #699 url('http://image0.flaticon.com/icons/svg/114/114333.svg') no-repeat center center;
+  background-size: 100px 100px;
+  color: #000;
 }
 #menu a.netflow{
-    background: #fc0 url('http://icon-icons.com/icons2/632/PNG/128/graph-5_icon-icons.com_58023.png') no-repeat center center;
-	background-size: 40%;
-	color: #000;
+  background: #fc0 url('http://icon-icons.com/icons2/632/PNG/128/graph-5_icon-icons.com_58023.png') no-repeat center center;
+  background-size: 100px 100px;
+  color: #000;
 }
 #menu a.assets{
-    background: #ccc url('http://pngimg.com/upload/small/screwdriver_PNG9501.png') no-repeat center center;
-	background-size: 40%;
-	color: #000;
+  background: #ccc url('https://www.allbarcodesystems.com/wp-content/uploads/2017/03/free-code-39-barcode.png') no-repeat center center;
+  background-size: 100px 100px;
+  color: #000;
 }
 #menu a.github{
-    background: #6f6e6e url('https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png') no-repeat center center;
-	background-size: 40%;
-	color: #000;
+  background: #6f6e6e url('https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png') no-repeat center center;
+  background-size: 100px 100px;
+  color: #000;
 }
 #menu a.circleci{
-    background: #000 url('https://i.imgur.com/pdpXbUs.png') no-repeat center center;
-	background-size: 40%;
-	color: #000;
+  background: #fff url('https://i.imgur.com/pdpXbUs.png') no-repeat center center;
+  background-size: 100px 100px;
+  color: #000;
 }
 #menu a.quay{
-    background: #ccc url('https://cdn.worldvectorlogo.com/logos/quay.svg') no-repeat center center;
-	background-size: 10%;
-	color: #000;
+  background: #ccc url('https://cdn.worldvectorlogo.com/logos/quay.svg') no-repeat center center;
+  background-size: 100px 100px;
+  color: #000;
 }
 #menu a.codeclimate{
-    background: #01c488 url('https://alookatommorow.github.io/assets/images/stack/climate.png') no-repeat center center;
-	background-size: 40%;
-	color: #000;
+  background: #01c488 url('https://alookatommorow.github.io/assets/images/stack/climate.png') no-repeat center center;
+  background-size: 100px 100px;
+  color: #000;
 }
 #menu a.trello{
-    background: #fff url('https://netstorage.ringcentral.com/dpw/apps/BsxqZkBRQaWJ414y5EQOUg/0f760275-f987-4233-ad1d-f8358b63cb4a.png') no-repeat center center;
-	background-size: 40%;
-	color: #000;
+  background: #fff url('https://netstorage.ringcentral.com/dpw/apps/BsxqZkBRQaWJ414y5EQOUg/0f760275-f987-4233-ad1d-f8358b63cb4a.png') no-repeat center center;
+  background-size: 100px 100px;
+  color: #000;
 }
 
 /* CSS3 Effects */
 #menu  a {
-	-webkit-transition: all 0.1s linear;
-	-moz-transition: all 0.1s linear;
-	-o-transition: all 0.1s linear;
-	-ms-transition: all 0.1s linear;
-	transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  transition: all 0.1s linear;
 }
 #menu  a:hover {
-	-webkit-transform: scale(0.98,0.98);
-	-moz-transform: scale(0.98,0.98);
-	-o-transform: scale(0.98,0.98);
-	-ms-transform: scale(0.98,0.98);
-	transform: scale(0.98,0.98);
+  -webkit-transform: scale(0.98,0.98);
+  -moz-transform: scale(0.98,0.98);
+  -o-transform: scale(0.98,0.98);
+  -ms-transform: scale(0.98,0.98);
+  transform: scale(0.98,0.98);
 }
 
 #menu a.disabled {
-	-webkit-filter: grayscale(100%);
-	cursor: default;
-	pointer-events: none;
+  -webkit-filter: grayscale(100%);
+  cursor: default;
+  pointer-events: none;
 }
 #menu  a.disabled:hover {
-	-webkit-transform: none;
-	-moz-transform: none;
-	-o-transform: none;
-	-ms-transform: none;
-	transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
 }

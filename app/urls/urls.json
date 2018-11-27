@@ -1,0 +1,37 @@
+{
+    "Event": {
+        "Monitoring": [
+          { "name":"prometheus" , "link":"https://prometheus.event.dreamhack.se/prometheus/graph"},
+          { "name":"dhmap" , "link":"https://status.event.dreamhack.se/dhmap/dhmap.html"},
+          { "name":"buildstatus" , "link":"https://status.event.dreamhack.se/webmon/buildstatus.html"},
+          { "name":"grafana" , "link":"https://grafana.event.dreamhack.se"},
+          { "name":"dhcpinfo" , "link":""},
+          { "name":"ticket" , "link":""},
+          { "name":"dnsstat" , "link":""},
+          { "name":"tele" , "link":"https://tele.event.dreamhack.se"},
+          { "name":"alertmanager" , "link":"https://alertmanager.event.dreamhack.se"}
+        ]
+    },
+    "Colo": {
+        "Monitoring": [
+          { "name":"prometheus" , "link":"https://prom.tech.dreamhack.se"},
+          { "name":"prometheus-fed" , "link":"https://prom-fed.tech.dreamhack.se"},
+          { "name":"puppet" , "link":"https://puppetboard.tech.dreamhack.se"},
+          { "name":"grafana" , "link":"https://grafana.tech.dreamhack.se"},
+          { "name":"assets" , "link":"https://assets.tech.dreamhack.se"},
+          { "name":"trac" , "link":"https://doc.tech.dreamhack.se/trac"},
+          { "name":"svn" , "link":"https://doc.tech.dreamhack.se/svn"},
+          { "name":"alertmanager-sto2" , "link":"https://alert-sto2.tech.dreamhack.se"}
+        ]
+    },
+    "Tools": {
+        "tools": [
+          { "name":"github" , "link":"https://github.com/dhtech"},
+          { "name":"circleci" , "link":"https://circleci.com/gh/dhtech"},
+          { "name":"quay" , "link":"https://quay.io/organization/dhtech"},
+          { "name":"codeclimate" , "link":"https://codeclimate.com"},
+          { "name":"trello" , "link":"https://trello.com"}
+        ]
+    }
+}
+
