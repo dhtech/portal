@@ -46,7 +46,15 @@ body{
     background: #e6522c url('https://prometheus.io/assets/prometheus_logo_grey.svg') no-repeat center center;
 	background-size: 35%;
 }
+#menu .prometheus-fed{
+    background: #e6522c url('https://prometheus.io/assets/prometheus_logo_grey.svg') no-repeat center center;
+	background-size: 35%;
+}
 #menu .alertmanager{
+    background: #1fa67a url('../img/alertmanager.png') no-repeat center center;
+    background-size: auto 50%;
+}
+#menu .alertmanager-sto2{
     background: #1fa67a url('../img/alertmanager.png') no-repeat center center;
     background-size: auto 50%;
 }
@@ -61,7 +69,7 @@ body{
     background: #f69;
 }
 #menu a.puppet{
-    background: #444 url('https://puppet.com/themes/hoverboard/images/puppet-logo/puppet-logo-amber-white-lg.png') no-repeat center center;
+    background: #444 url('https://pluralsight.imgix.net/paths/path-icons/puppet-4309c63760.png') no-repeat center center;
 	background-size: 80%;
 	line-height: 150px;
 }
@@ -88,10 +96,30 @@ body{
 	background-size: 40%;
 	color: #000;
 }
-#menu a.k8s{
-    background: rgb(50, 109, 230) url('../img/k8s.svg') no-repeat center 9pt;
-	background-size: 60%;
-	color: #fff;
+#menu a.github{
+    background: #6f6e6e url('https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png') no-repeat center center;
+	background-size: 40%;
+	color: #000;
+}
+#menu a.circleci{
+    background: #000 url('https://i.imgur.com/pdpXbUs.png') no-repeat center center;
+	background-size: 40%;
+	color: #000;
+}
+#menu a.quay{
+    background: #ccc url('https://cdn.worldvectorlogo.com/logos/quay.svg') no-repeat center center;
+	background-size: 10%;
+	color: #000;
+}
+#menu a.codeclimate{
+    background: #01c488 url('https://alookatommorow.github.io/assets/images/stack/climate.png') no-repeat center center;
+	background-size: 40%;
+	color: #000;
+}
+#menu a.trello{
+    background: #fff url('https://netstorage.ringcentral.com/dpw/apps/BsxqZkBRQaWJ414y5EQOUg/0f760275-f987-4233-ad1d-f8358b63cb4a.png') no-repeat center center;
+	background-size: 40%;
+	color: #000;
 }
 
 /* CSS3 Effects */
