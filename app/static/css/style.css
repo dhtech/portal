@@ -32,7 +32,7 @@ body{
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
-  height: 120px;
+  height: 110px;
   min-width: 100%;
   background-color: #666;
 }
@@ -50,11 +50,11 @@ body{
 }
 #menu .alertmanager{
   background: #1fa67a url('../img/alertmanager.png') no-repeat center center;
-  background-size: 80px 80px;
+  background-size: 70px 70px;
 }
 #menu .alertmanager-sto2{
   background: #1fa67a url('../img/alertmanager.png') no-repeat center center;
-  background-size: 80px 80px;
+  background-size: 70px 70px;
 }
 #menu a.dhmap {
   background: #999966 url('../img/dhmap.png') no-repeat center center;
@@ -69,24 +69,24 @@ body{
   background-size: 80px 80px;
 }
 #menu a.buildstatus {
-  background: #5375CA;
+  background: #5375CA url('https://static1.squarespace.com/static/53fce470e4b0374adfdd30bc/t/5705921f4c2f853343bd588c/1459982884768/') no-repeat center center;
   background-size: 80px 80px;
 }
 #menu a.dhcpinfo{
-  background-size: 80px 80px;
-  background: #f69;
+  background-size: 80px 80px
+  background: #f69 url('https://www.multapplied.net/wp-content/uploads/2011/05/features-DHCP.png') no-repeat center center;
 }
 #menu a.puppet{
   background: #444 url('https://pluralsight.imgix.net/paths/path-icons/puppet-4309c63760.png') no-repeat center center;
   background-size: 80px 80px;
 }
 #menu a.ticket{
-  background: #5375CA url('http://ticket.event.dreamhack.se/styles/bg-clouds.png');
+  background: #5375CA url('http://www.deepriverrotary.org/wp-content/uploads/2017/08/ticket-icon-red.png');
   background-size: 80px 80px;
 }
 #menu a.dnsstat{
   background-size: 80px 80px;
-  background: #63c;
+  background: #63c url('https://cdn.servicepilot.com/images/integration/dns.png') no-repeat center center;
 }
 #menu a.tele{
   background: #699 url('http://image0.flaticon.com/icons/svg/114/114333.svg') no-repeat center center;
