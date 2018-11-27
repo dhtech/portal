@@ -3,19 +3,16 @@ body{
   background: url("../img/background.png") no-repeat center center fixed;
   background-size: cover;
   color: #fff;
+  overflow: hidden;
 }
 
-.purltal-header {
-    padding-top: 30px;
-    font-size: 60px;
-}
 .purltal-kategori {
-    font-size: 35px;
+    font-size: 20px;
     padding-top: 20px;
 }
 
 .purtal-container {
-  width: 80%;
+  width: 85%;
 }
 
 #menu {
