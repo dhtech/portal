@@ -45,27 +45,26 @@
         }
     </script>
 
-
-  <div class="container purtal-container">
-    <h1 class="purltal-header text-center">pURLtal</h1>
-    {% for kategori in data|sort %}
-      <div class="row">
-        <div class="container purtal-container">
+    <div class="container">
+      <h1 class="purltal-header text-center">pURLtal</h1>
+      {% for kategori in data|sort %}
+        <div class="row">
+          <div class="container purtal-container">
             <h3 class="purltal-kategori text-center">{{ kategori }}</h3>
-            <center><button type="button" class="btn btn-sm" data-circle="{{ kategori }}">show/hide</button></center>
-          <div class="row justify-content-center">
-            {% for subkategori in data[kategori]|sort %}
-              {% for lank in data[kategori][subkategori] %}
-                <div class=" {{ kategori }}">
-                  <a HREF="{{ lank['link'] }}" class="{{ site }}"><img class="smallPicture" src="{{ lank['picture'] }}" class="img-responsive"></a>
-                  <p class="text-center">{{ lank['name'] }} </p>
-                </div>
-              {% endfor %}
-            {% endfor %}
+              <center><button type="button" class="btn btn-sm" data-circle="{{ kategori }}">show/hide</button></center>
+              <div class="row justify-content-center">
+                {% for subkategori in data[kategori]|sort %}
+                  {% for lank in data[kategori][subkategori] %}
+                    <div class="{{ kategori }} col-sm-2">
+                      <a class="{{ lank['name']" href="{{ lank['link'] }}" alt="{{ lank['name'] }}" style="">{{ lank['name'] }}</a>
+                    </div>
+                  {% endfor %}
+                {% endfor %}
+              </div>
           </div>
         </div>
-      </div>
-    {% endfor %}
-  </div>
+      {% endfor %}
+    </div>
+
 
 {% endblock %}

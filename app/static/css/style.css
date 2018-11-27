@@ -1,0 +1,124 @@
+body{
+    	font-family: 'Titillium Web', sans-serif;
+	background: url("static/img/background.png") no-repeat center center fixed;
+	background-size: cover;
+	color: #fff;
+}
+
+.purltal-header {
+    padding-top: 30px;
+    font-size: 60px;
+}
+.purltal-kategori {
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.purtal-container {
+	width: 80%;
+}
+
+#menu {
+	float: left;
+	margin-top: 1%;
+}
+
+#menu a {
+	float: left;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-align:center;
+	width:100%;
+	margin:5px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	height: 120px;
+	min-width: 100%;
+    	background-color: #666;
+}
+#menu .grafana{
+    background: #333 url('https://seeklogo.com/images/G/grafana-logo-15BA0AFA8A-seeklogo.com.png') no-repeat center center;
+    background-size: auto 60%;
+}
+#menu .prometheus{
+    background: #e6522c url('https://prometheus.io/assets/prometheus_logo_grey.svg') no-repeat center center;
+	background-size: 35%;
+}
+#menu .alertmanager{
+    background: #1fa67a url('../img/alertmanager.png') no-repeat center center;
+    background-size: auto 50%;
+}
+#menu a.dhmap {
+    background: #999966 url('../img/dhmap.png') no-repeat center center;
+    background-size: 65% auto;
+}
+#menu a.buildstatus {
+    background: #5375CA;
+}
+#menu a.dhcpinfo{
+    background: #f69;
+}
+#menu a.puppet{
+    background: #444 url('https://puppet.com/themes/hoverboard/images/puppet-logo/puppet-logo-amber-white-lg.png') no-repeat center center;
+	background-size: 80%;
+	line-height: 150px;
+}
+#menu a.ticket{
+    background: #5375CA url('http://ticket.event.dreamhack.se/styles/bg-clouds.png');
+	line-height: 150px;
+}
+#menu a.dnsstat{
+    background: #63c;
+	line-height: 150px;
+}
+#menu a.tele{
+    background: #699 url('http://image0.flaticon.com/icons/svg/114/114333.svg') no-repeat center center;
+	background-size: 40%;
+	color: #000;
+}
+#menu a.netflow{
+    background: #fc0 url('http://icon-icons.com/icons2/632/PNG/128/graph-5_icon-icons.com_58023.png') no-repeat center center;
+	background-size: 40%;
+	color: #000;
+}
+#menu a.assets{
+    background: #ccc url('http://pngimg.com/upload/small/screwdriver_PNG9501.png') no-repeat center center;
+	background-size: 40%;
+	color: #000;
+}
+#menu a.k8s{
+    background: rgb(50, 109, 230) url('../img/k8s.svg') no-repeat center 9pt;
+	background-size: 60%;
+	color: #fff;
+}
+
+/* CSS3 Effects */
+#menu  a {
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	-ms-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+#menu  a:hover {
+	-webkit-transform: scale(0.98,0.98);
+	-moz-transform: scale(0.98,0.98);
+	-o-transform: scale(0.98,0.98);
+	-ms-transform: scale(0.98,0.98);
+	transform: scale(0.98,0.98);
+}
+
+#menu a.disabled {
+	-webkit-filter: grayscale(100%);
+	cursor: default;
+	pointer-events: none;
+}
+#menu  a.disabled:hover {
+	-webkit-transform: none;
+	-moz-transform: none;
+	-o-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
