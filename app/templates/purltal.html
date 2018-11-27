@@ -53,7 +53,7 @@
             <div class="row justify-content-center">
               {% for subkategori in data[kategori]|sort %}
                 {% for lank in data[kategori][subkategori] %}
-                  <div id="menu" class="{{ kategori }} col-sm-2 col-md-2 col-lg-1 col-xl-1">
+                  <div id="menu" class="{{ kategori }} col">
                     <a class="{{ lank['name'] }}" href="{{ lank['link'] }}" alt="{{ lank['name'] }}" style="">{{ lank['name'] }}</a>
                   </div>
                 {% endfor %}

@@ -27,13 +27,13 @@ body{
   color: #fff;
   text-decoration: none;
   text-align:center;
-  width:100%;
+  /*width:100%;*/
   margin:5px;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
   height: 120px;
-  min-width: 100%;
+  /*min-width: 100%;*/
   background-color: #666;
 }
 #menu .grafana{
@@ -74,7 +74,7 @@ body{
 }
 #menu a.dhcpinfo{
   background: #f69 url('https://www.multapplied.net/wp-content/uploads/2011/05/features-DHCP.png') no-repeat center center;
-  background-size: 40px 40px;
+  background-size: 60px 60px;
 }
 #menu a.puppet{
   background: #444 url('https://pluralsight.imgix.net/paths/path-icons/puppet-4309c63760.png') no-repeat center center;
@@ -86,7 +86,7 @@ body{
 }
 #menu a.dnsstat{
   background: #63c url('https://cdn.servicepilot.com/images/integration/dns.png') no-repeat center center;
-  background-size: 40px 40px;
+  background-size: 60px 60px;
 }
 #menu a.tele{
   background: #699 url('http://image0.flaticon.com/icons/svg/114/114333.svg') no-repeat center center;
