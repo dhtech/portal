@@ -73,8 +73,8 @@ body{
   background-size: 70px 70px;
 }
 #menu a.dhcpinfo{
-  background-size: 70px 70px;
   background: #f69 url('https://www.multapplied.net/wp-content/uploads/2011/05/features-DHCP.png') no-repeat center center;
+  background-size: 40px 40px;
 }
 #menu a.puppet{
   background: #444 url('https://pluralsight.imgix.net/paths/path-icons/puppet-4309c63760.png') no-repeat center center;
@@ -85,8 +85,8 @@ body{
   background-size: 70px 70px;
 }
 #menu a.dnsstat{
-  background-size: 70px 70px;
   background: #63c url('https://cdn.servicepilot.com/images/integration/dns.png') no-repeat center center;
+  background-size: 40px 40px;
 }
 #menu a.tele{
   background: #699 url('http://image0.flaticon.com/icons/svg/114/114333.svg') no-repeat center center;
