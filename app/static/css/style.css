@@ -27,13 +27,13 @@ body{
   color: #fff;
   text-decoration: none;
   text-align:center;
-  /*width:100%;*/
+  width:100%;
   margin:5px;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
   height: 120px;
-  /*min-width: 100%;*/
+  min-width: 100%;
   background-color: #666;
 }
 #menu .grafana{
