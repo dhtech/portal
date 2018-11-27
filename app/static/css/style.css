@@ -133,6 +133,11 @@ body{
   background-size: 70px 70px;
   color: #000;
 }
+#menu a.vcenter{
+  background: #666 url('https://mtnengineer.no-ip.info/wp-content/uploads/2018/07/VMWare-ESXi-Logo-300x300.png') no-repeat center center;
+  background-size: 70px 70px;
+  color: #fff;
+}
 
 /* CSS3 Effects */
 #menu  a {
