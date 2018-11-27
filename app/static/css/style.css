@@ -60,7 +60,14 @@ body{
 }
 #menu a.dhmap {
   background: #999966 url('../img/dhmap.png') no-repeat center center;
-  background-size: 65% 65%;
+  background-size: 100px 100px;
+}
+#menu a.trac {
+  background: #666 url('https://cdn.freebiesupply.com/logos/large/2x/trac-2-logo-png-transparent.png') no-repeat center center;
+  background-size: 100px 100px;
+}
+#menu a.svn {
+  background: #666 url('http://www.subversiondownload.com/images/subversion-logo.png') no-repeat center center;
   background-size: 100px 100px;
 }
 #menu a.buildstatus {
@@ -99,12 +106,12 @@ body{
   color: #000;
 }
 #menu a.github{
-  background: #6f6e6e url('https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png') no-repeat center center;
+  background: #000 url('https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png') no-repeat center center;
   background-size: 100px 100px;
-  color: #000;
+  color: #fff;
 }
 #menu a.circleci{
-  background: #fff url('https://i.imgur.com/pdpXbUs.png') no-repeat center center;
+  background: #fff url('https://dng5l922vgz8f.cloudfront.net/media/filer_public/08/f9/08f9f828-40ec-46d7-949a-6d7982ebce97/circleci-logo.png') no-repeat center center;
   background-size: 100px 100px;
   color: #000;
 }
