@@ -128,12 +128,12 @@ body{
   background-size: 70px 70px;
   color: #000;
 }
-#menu a.trello{
+#menu a.vault{
   background: #fff url('https://cdn.freebiesupply.com/logos/large/2x/vault-enterprise-logo-png-transparent.png') no-repeat center center;
   background-size: 70px 70px;
   color: #000;
 }
-#menu a.vcenter{
+#menu a.vCenter{
   background: #666 url('https://mtnengineer.no-ip.info/wp-content/uploads/2018/07/VMWare-ESXi-Logo-300x300.png') no-repeat center center;
   background-size: 70px 70px;
   color: #fff;
