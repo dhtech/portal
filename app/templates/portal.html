@@ -47,8 +47,8 @@
 
     {% for kategori in data|sort %}
       <div class="row">
-        <div class="container purtal-container">
-          <h3 class="purltal-kategori text-center">{{ kategori }}</h3>
+        <div class="container portal-container">
+          <h3 class="portal-kategori text-center">{{ kategori }}</h3>
             <center><button type="button" class="btn btn-sm" data-circle="{{ kategori }}">show/hide</button></center>
             <div class="row justify-content-center">
               {% for subkategori in data[kategori]|sort %}

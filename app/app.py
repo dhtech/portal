@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     with open('urls/urls.json', 'r') as f:
         data = json.load(f)
-    return render_template('purltal.html', data=data)
+    return render_template('portal.html', data=data)
 
 
 if __name__ == '__main__':
