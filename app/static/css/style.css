@@ -100,7 +100,7 @@ body{
   color: #000;
 }
 #menu a.assets{
-  background: #ccc url('https://www.allbarcodesystems.com/wp-content/uploads/2017/03/free-code-39-barcode.png') no-repeat center center;
+  background: #ccc url('../img/assets.png') no-repeat center center;
   background-size: 70px 70px;
   color: #000;
 }
@@ -124,9 +124,9 @@ body{
   background-size: 70px 70px;
   color: #000;
 }
-#menu a.trello{
-  background: #fff url('https://netstorage.ringcentral.com/dpw/apps/BsxqZkBRQaWJ414y5EQOUg/0f760275-f987-4233-ad1d-f8358b63cb4a.png') no-repeat center center;
-  background-size: 70px 70px;
+#menu a.monday{
+  background: #fff url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcompanieslogo.com%2Fimg%2Forig%2FMNDY-d18a458f.png%3Ft%3D1629722397%26download%3Dtrue&f=1&nofb=1&ipt=eb7eb296b92e0ebc80c8ac824e821fb79ff2a0b079d81b5bc964592aee21b4f3&ipo=images') no-repeat center center;
+  background-size: 130px 70px;
   color: #000;
 }
 #menu a.vault{
@@ -142,6 +142,16 @@ body{
 #menu a.deploy-ui{
   background: #fff url('https://2013.london.wordcamp.org/files/2013/08/logo-deploy.png') no-repeat center center;
   background-size: 130px 70px;
+  color: #000;
+}
+#menu a.fusion{
+  background: #fff url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flemonldap-ng.org%2Fdocumentation%2F2.0%2F_images%2Ffusiondirectory-logo.jpg&f=1&nofb=1&ipt=6e90678561ba0fab7e6c8dddc32596d34241e898d444a51a9a6cb38c2b2e33d7&ipo=images') no-repeat center center;
+  background-size: 130px 70px;
+  color: #000;
+}
+#menu a.request{
+  background: #fff url('../img/request.jpeg') no-repeat center center;
+  background-size: 70px 70px;
   color: #000;
 }
 
