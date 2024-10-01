@@ -1,4 +1,4 @@
-FROM debian:testing-slim
+FROM debian:bullseye-slim
 LABEL maintaner="Sebastian Svensson <ss@tinbox.nu>"
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update -y; \

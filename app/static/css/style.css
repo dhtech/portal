@@ -3,7 +3,8 @@ body{
   background: url("../img/background.png") no-repeat center center fixed;
   background-size: cover;
   color: #fff;
-  overflow: hidden;
+  overflow-y:  scroll;
+  overflow-x: hidden;
 }
 
 .portal-kategori {
@@ -65,7 +66,7 @@ body{
   background-size: 70px 70px;
 }
 #menu a.svn {
-  background: #666 url('http://www.subversiondownload.com/images/subversion-logo.png') no-repeat center center;
+  background: #666 url('https://superdevresources.com/wp-content/uploads/2015/01/subversion_logo-384x332.png') no-repeat center center;
   background-size: 70px 70px;
 }
 #menu a.buildstatus {
@@ -73,7 +74,7 @@ body{
   background-size: 70px 70px;
 }
 #menu a.dhcpinfo{
-  background: #f69 url('https://www.multapplied.net/wp-content/uploads/2011/05/features-DHCP.png') no-repeat center center;
+  background: #f69 url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-P9bwwO87MN8%2FVnrDC_zOCmI%2FAAAAAAAAALc%2F_-MXLXf7oZI%2Fs1600%2FProtocole-reseau-dhcp.png&f=1&nofb=1&ipt=b92ebae0c386bf6573b447b469d6a6422765c0f009e3ad5e4cf5218fa8239124&ipo=images') no-repeat center center;
   background-size: 60px 60px;
 }
 #menu a.puppet{
@@ -85,7 +86,7 @@ body{
   background-size: 70px 70px;
 }
 #menu a.dnsstat{
-  background: #63c url('https://cdn.servicepilot.com/images/integration/dns.png') no-repeat center center;
+  background: #63c url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogodix.com%2Flogo%2F2123992.png&f=1&nofb=1&ipt=63aad68edf062db13ac0bfae9419da8f87ef21c1d9e7618e5f5040a94b22def5&ipo=images') no-repeat center center;
   background-size: 60px 60px;
 }
 #menu a.tele{
@@ -104,7 +105,7 @@ body{
   color: #000;
 }
 #menu a.github{
-  background: #000 url('https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png') no-repeat center center;
+  background: #000 url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Fgithub-logo-png-white-github-11-icon-free-white-social-icons-256x256.png&f=1&nofb=1&ipt=c4709ceea179d1ff3f0c252077f09801d94c82a96d8634a7f21819c7b1dce570&ipo=images') no-repeat center center;
   background-size: 70px 70px;
   color: #fff;
 }
@@ -134,7 +135,7 @@ body{
   color: #000;
 }
 #menu a.vCenter{
-  background: #666 url('https://mtnengineer.no-ip.info/wp-content/uploads/2018/07/VMWare-ESXi-Logo-300x300.png') no-repeat center center;
+  background: #666 url('https://w7.pngwing.com/pngs/365/66/png-transparent-vmware-esxi-vmware-vsphere-vmdk-virtual-machine-others-text-rectangle-logo.png') no-repeat center center;
   background-size: 70px 70px;
   color: #fff;
 }
