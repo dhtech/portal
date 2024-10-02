@@ -38,15 +38,15 @@ body{
   background-color: #666;
 }
 #menu .grafana{
-  background: #333 url('https://seeklogo.com/images/G/grafana-logo-15BA0AFA8A-seeklogo.com.png') no-repeat center center;
+  background: #333 url('../img/grafana-logo-15BA0AFA8A-seeklogo.com.png') no-repeat center center;
   background-size: 70px 70px;
 }
 #menu .prometheus{
-  background: #e6522c url('https://prometheus.io/assets/prometheus_logo_grey.svg') no-repeat center center;
+  background: #e6522c url('../img/prometheus_logo_grey.svg') no-repeat center center;
   background-size: 70px 70px;
 }
 #menu .prometheus-fed{
-  background: #e6522c url('https://prometheus.io/assets/prometheus_logo_grey.svg') no-repeat center center;
+  background: #e6522c url('../img/prometheus_logo_grey.svg') no-repeat center center;
   background-size: 70px 70px;
 }
 #menu .alertmanager{
@@ -62,40 +62,31 @@ body{
   background-size: 70px 70px;
 }
 #menu a.trac {
-  background: #666 url('https://cdn.freebiesupply.com/logos/large/2x/trac-2-logo-png-transparent.png') no-repeat center center;
+  background: #666 url('../img/trac-2-logo-png-transparent.png') no-repeat center center;
   background-size: 70px 70px;
 }
 #menu a.svn {
-  background: #666 url('https://superdevresources.com/wp-content/uploads/2015/01/subversion_logo-384x332.png') no-repeat center center;
+  background: #666 url('../img/subversion.png') no-repeat center center;
   background-size: 70px 70px;
 }
 #menu a.buildstatus {
-  background: #666 url('https://www.simonelevie.nl/wp-content/uploads/2016/10/simple-green-check-button-md.png') no-repeat center center;
+  background: #666 url('../img/green-checkmark.png') no-repeat center center;
   background-size: 70px 70px;
 }
 #menu a.dhcpinfo{
-  background: #f69 url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-P9bwwO87MN8%2FVnrDC_zOCmI%2FAAAAAAAAALc%2F_-MXLXf7oZI%2Fs1600%2FProtocole-reseau-dhcp.png&f=1&nofb=1&ipt=b92ebae0c386bf6573b447b469d6a6422765c0f009e3ad5e4cf5218fa8239124&ipo=images') no-repeat center center;
+  background: #f69 url('../img/dhcp.png') no-repeat center center;
   background-size: 60px 60px;
 }
 #menu a.puppet{
-  background: #444 url('https://pluralsight.imgix.net/paths/path-icons/puppet-4309c63760.png') no-repeat center center;
+  background: #444 url('../img/puppet-4309c63760.png') no-repeat center center;
   background-size: 90px 90px;
 }
-#menu a.ticket{
-  background: #5375CA url('http://www.deepriverrotary.org/wp-content/uploads/2017/08/ticket-icon-red.png') no-repeat center center;
-  background-size: 70px 70px;
-}
 #menu a.dnsstat{
-  background: #63c url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogodix.com%2Flogo%2F2123992.png&f=1&nofb=1&ipt=63aad68edf062db13ac0bfae9419da8f87ef21c1d9e7618e5f5040a94b22def5&ipo=images') no-repeat center center;
+  background: #63c url('../img/dns.png') no-repeat center center;
   background-size: 60px 60px;
 }
-#menu a.tele{
-  background: #699 url('http://image0.flaticon.com/icons/svg/114/114333.svg') no-repeat center center;
-  background-size: 70px 70px;
-  color: #000;
-}
 #menu a.netflow{
-  background: #fc0 url('http://icon-icons.com/icons2/632/PNG/128/graph-5_icon-icons.com_58023.png') no-repeat center center;
+  background: #fc0 url('../img/graph.png') no-repeat center center;
   background-size: 70px 70px;
   color: #000;
 }
@@ -105,47 +96,47 @@ body{
   color: #000;
 }
 #menu a.github{
-  background: #000 url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Fgithub-logo-png-white-github-11-icon-free-white-social-icons-256x256.png&f=1&nofb=1&ipt=c4709ceea179d1ff3f0c252077f09801d94c82a96d8634a7f21819c7b1dce570&ipo=images') no-repeat center center;
+  background: #000 url('../img/github.png') no-repeat center center;
   background-size: 70px 70px;
   color: #fff;
 }
 #menu a.circleci{
-  background: #fff url('https://dng5l922vgz8f.cloudfront.net/media/filer_public/08/f9/08f9f828-40ec-46d7-949a-6d7982ebce97/circleci-logo.png') no-repeat center center;
+  background: #fff url('../img/circleci-logo.png') no-repeat center center;
   background-size: 70px 70px;
   color: #000;
 }
 #menu a.quay{
-  background: #ccc url('https://cdn.worldvectorlogo.com/logos/quay.svg') no-repeat center center;
+  background: #ccc url('../img/quay.svg') no-repeat center center;
   background-size: 70px 70px;
   color: #000;
 }
 #menu a.codeclimate{
-  background: #01c488 url('https://alookatommorow.github.io/assets/images/stack/climate.png') no-repeat center center;
+  background: #01c488 url('../img/climate.png') no-repeat center center;
   background-size: 70px 70px;
   color: #000;
 }
 #menu a.monday{
-  background: #fff url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcompanieslogo.com%2Fimg%2Forig%2FMNDY-d18a458f.png%3Ft%3D1629722397%26download%3Dtrue&f=1&nofb=1&ipt=eb7eb296b92e0ebc80c8ac824e821fb79ff2a0b079d81b5bc964592aee21b4f3&ipo=images') no-repeat center center;
+  background: #fff url('../img/monday.png') no-repeat center center;
   background-size: 130px 70px;
   color: #000;
 }
 #menu a.vault{
-  background: #fff url('https://cdn.freebiesupply.com/logos/large/2x/vault-enterprise-logo-png-transparent.png') no-repeat center center;
+  background: #fff url('../img/vault.png') no-repeat center center;
   background-size: 70px 70px;
   color: #000;
 }
 #menu a.vCenter{
-  background: #666 url('https://w7.pngwing.com/pngs/365/66/png-transparent-vmware-esxi-vmware-vsphere-vmdk-virtual-machine-others-text-rectangle-logo.png') no-repeat center center;
+  background: #666 url('../img/vsphere.png') no-repeat center center;
   background-size: 70px 70px;
   color: #fff;
 }
 #menu a.deploy-ui{
-  background: #fff url('https://2013.london.wordcamp.org/files/2013/08/logo-deploy.png') no-repeat center center;
+  background: #fff url('../img/logo-deploy.png') no-repeat center center;
   background-size: 130px 70px;
   color: #000;
 }
 #menu a.fusion{
-  background: #fff url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flemonldap-ng.org%2Fdocumentation%2F2.0%2F_images%2Ffusiondirectory-logo.jpg&f=1&nofb=1&ipt=6e90678561ba0fab7e6c8dddc32596d34241e898d444a51a9a6cb38c2b2e33d7&ipo=images') no-repeat center center;
+  background: #fff url('../img/fusiondirectory-logo-437090691.jpg') no-repeat center center;
   background-size: 130px 70px;
   color: #000;
 }
