@@ -49,7 +49,7 @@
       <div class="row">
         <div class="container portal-container">
           <h3 class="portal-kategori text-center">{{ kategori }}</h3>
-            <center><button type="button" class="btn btn-sm" data-circle="{{ kategori }}">show/hide</button></center>
+            <center><button type="button" class="btn btn-sm btn-light" data-circle="{{ kategori }}">show/hide</button></center>
             <div class="row justify-content-center">
               {% for subkategori in data[kategori]|sort %}
                 {% for lank in data[kategori][subkategori] %}

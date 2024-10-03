@@ -3,7 +3,8 @@ body{
   background: url("../img/background.png") no-repeat center center fixed;
   background-size: cover;
   color: #fff;
-  overflow: hidden;
+  overflow-y:  scroll;
+  overflow-x: hidden;
 }
 
 .portal-kategori {
@@ -37,15 +38,15 @@ body{
   background-color: #666;
 }
 #menu .grafana{
-  background: #333 url('https://seeklogo.com/images/G/grafana-logo-15BA0AFA8A-seeklogo.com.png') no-repeat center center;
+  background: #333 url('../img/grafana-logo-15BA0AFA8A-seeklogo.com.png') no-repeat center center;
   background-size: 70px 70px;
 }
 #menu .prometheus{
-  background: #e6522c url('https://prometheus.io/assets/prometheus_logo_grey.svg') no-repeat center center;
+  background: #e6522c url('../img/prometheus_logo_grey.svg') no-repeat center center;
   background-size: 70px 70px;
 }
 #menu .prometheus-fed{
-  background: #e6522c url('https://prometheus.io/assets/prometheus_logo_grey.svg') no-repeat center center;
+  background: #e6522c url('../img/prometheus_logo_grey.svg') no-repeat center center;
   background-size: 70px 70px;
 }
 #menu .alertmanager{
@@ -61,85 +62,91 @@ body{
   background-size: 70px 70px;
 }
 #menu a.trac {
-  background: #666 url('https://cdn.freebiesupply.com/logos/large/2x/trac-2-logo-png-transparent.png') no-repeat center center;
+  background: #666 url('../img/trac-2-logo-png-transparent.png') no-repeat center center;
   background-size: 70px 70px;
 }
 #menu a.svn {
-  background: #666 url('http://www.subversiondownload.com/images/subversion-logo.png') no-repeat center center;
+  background: #666 url('../img/subversion.png') no-repeat center center;
   background-size: 70px 70px;
 }
 #menu a.buildstatus {
-  background: #666 url('https://www.simonelevie.nl/wp-content/uploads/2016/10/simple-green-check-button-md.png') no-repeat center center;
+  background: #666 url('../img/green-checkmark.png') no-repeat center center;
   background-size: 70px 70px;
 }
 #menu a.dhcpinfo{
-  background: #f69 url('https://www.multapplied.net/wp-content/uploads/2011/05/features-DHCP.png') no-repeat center center;
+  background: #f69 url('../img/dhcp.png') no-repeat center center;
   background-size: 60px 60px;
 }
 #menu a.puppet{
-  background: #444 url('https://pluralsight.imgix.net/paths/path-icons/puppet-4309c63760.png') no-repeat center center;
+  background: #444 url('../img/puppet-4309c63760.png') no-repeat center center;
   background-size: 90px 90px;
 }
-#menu a.ticket{
-  background: #5375CA url('http://www.deepriverrotary.org/wp-content/uploads/2017/08/ticket-icon-red.png') no-repeat center center;
-  background-size: 70px 70px;
-}
 #menu a.dnsstat{
-  background: #63c url('https://cdn.servicepilot.com/images/integration/dns.png') no-repeat center center;
+  background: #63c url('../img/dns.png') no-repeat center center;
   background-size: 60px 60px;
 }
-#menu a.tele{
-  background: #699 url('http://image0.flaticon.com/icons/svg/114/114333.svg') no-repeat center center;
-  background-size: 70px 70px;
-  color: #000;
-}
 #menu a.netflow{
-  background: #fc0 url('http://icon-icons.com/icons2/632/PNG/128/graph-5_icon-icons.com_58023.png') no-repeat center center;
+  background: #fc0 url('../img/graph.png') no-repeat center center;
   background-size: 70px 70px;
   color: #000;
 }
 #menu a.assets{
-  background: #ccc url('https://www.allbarcodesystems.com/wp-content/uploads/2017/03/free-code-39-barcode.png') no-repeat center center;
+  background: #ccc url('../img/assets.png') no-repeat center center;
   background-size: 70px 70px;
   color: #000;
 }
 #menu a.github{
-  background: #000 url('https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png') no-repeat center center;
+  background: #000 url('../img/github.png') no-repeat center center;
   background-size: 70px 70px;
   color: #fff;
 }
 #menu a.circleci{
-  background: #fff url('https://dng5l922vgz8f.cloudfront.net/media/filer_public/08/f9/08f9f828-40ec-46d7-949a-6d7982ebce97/circleci-logo.png') no-repeat center center;
+  background: #fff url('../img/circleci-logo.png') no-repeat center center;
   background-size: 70px 70px;
   color: #000;
 }
 #menu a.quay{
-  background: #ccc url('https://cdn.worldvectorlogo.com/logos/quay.svg') no-repeat center center;
+  background: #ccc url('../img/quay.svg') no-repeat center center;
   background-size: 70px 70px;
   color: #000;
 }
 #menu a.codeclimate{
-  background: #01c488 url('https://alookatommorow.github.io/assets/images/stack/climate.png') no-repeat center center;
+  background: #01c488 url('../img/climate.png') no-repeat center center;
   background-size: 70px 70px;
   color: #000;
 }
-#menu a.trello{
-  background: #fff url('https://netstorage.ringcentral.com/dpw/apps/BsxqZkBRQaWJ414y5EQOUg/0f760275-f987-4233-ad1d-f8358b63cb4a.png') no-repeat center center;
-  background-size: 70px 70px;
+#menu a.monday{
+  background: #fff url('../img/monday.png') no-repeat center center;
+  background-size: 130px 70px;
   color: #000;
 }
 #menu a.vault{
-  background: #fff url('https://cdn.freebiesupply.com/logos/large/2x/vault-enterprise-logo-png-transparent.png') no-repeat center center;
+  background: #fff url('../img/vault.png') no-repeat center center;
   background-size: 70px 70px;
   color: #000;
 }
 #menu a.vCenter{
-  background: #666 url('https://mtnengineer.no-ip.info/wp-content/uploads/2018/07/VMWare-ESXi-Logo-300x300.png') no-repeat center center;
+  background: #666 url('../img/vsphere.png') no-repeat center center;
   background-size: 70px 70px;
   color: #fff;
 }
 #menu a.deploy-ui{
-  background: #fff url('https://2013.london.wordcamp.org/files/2013/08/logo-deploy.png') no-repeat center center;
+  background: #fff url('../img/logo-deploy.jpeg') no-repeat center center;
+  background-size: 70px 70px;
+  color: #000;
+}
+#menu a.fusion{
+  background: #fff url('../img/fusiondirectory-logo-437090691.jpg') no-repeat center center;
+  background-size: 130px 70px;
+  color: #000;
+}
+#menu a.request{
+  background: #fff url('../img/request.jpeg') no-repeat center center;
+  background-size: 70px 70px;
+  color: #000;
+}
+#menu a.netbox{
+  background: #fff url('../img/netbox_logo.svg') no-repeat center center;
   background-size: 130px 70px;
   color: #000;
 }
