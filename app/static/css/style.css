@@ -131,8 +131,8 @@ body{
   color: #fff;
 }
 #menu a.deploy-ui{
-  background: #fff url('../img/logo-deploy.png') no-repeat center center;
-  background-size: 130px 70px;
+  background: #fff url('../img/logo-deploy.jpeg') no-repeat center center;
+  background-size: 70px 70px;
   color: #000;
 }
 #menu a.fusion{
