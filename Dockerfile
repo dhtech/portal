@@ -1,4 +1,4 @@
-FROM python:3.11-slim-bullseye
+FROM python:3.11-slim-bookworm
 
 # Set the maintainer label
 LABEL maintainer="Sebastian Svensson <ss@tinbox.nu>"
