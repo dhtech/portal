@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <title>pURLtal</title>
+
+    <!-- CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/tether.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+
+    <div id="portal-root"></div>
+
+    <script>
+      var data = {
+        "Event": {
+          "Monitoring": [
+            { "name": "prometheus",    "link": "https://prometheus.event.dreamhack.se/graph" },
+            { "name": "dhmap",         "link": "https://status.event.dreamhack.se/dhmap/dhmon.html" },
+            { "name": "buildstatus",   "link": "https://status.event.dreamhack.se/webmon/buildstatus.html" },
+            { "name": "grafana",       "link": "https://grafana.event.dreamhack.se" },
+            { "name": "dhcpinfo",      "link": "https://dhcpinfo.event.dreamhack.se" },
+            { "name": "dnsstat",       "link": "https://dnsstat.event.dreamhack.se" },
+            { "name": "vCenter",       "link": "https://vc.event.dreamhack.se" },
+            { "name": "alertmanager",  "link": "https://alertmanager.event.dreamhack.se" },
+            { "name": "akvorado",       "link": "https://akvorado.event.dreamhack.se" }
+          ]
+        },
+        "Colo": {
+          "Monitoring": [
+            { "name": "prometheus",        "link": "https://prom.tech.dreamhack.se" },
+            { "name": "prometheus-fed",    "link": "https://prom-fed.tech.dreamhack.se" },
+            { "name": "puppet",            "link": "https://puppetboard.tech.dreamhack.se" },
+            { "name": "grafana",           "link": "https://grafana.tech.dreamhack.se" },
+            { "name": "assets",            "link": "https://assets.tech.dreamhack.se" },
+            { "name": "trac",              "link": "https://doc.tech.dreamhack.se/trac" },
+            { "name": "svn",               "link": "https://doc.tech.dreamhack.se/svn" },
+            { "name": "deploy-ui",         "link": "https://deploy-ui.tech.dreamhack.se" },
+            { "name": "vault",             "link": "https://vault.tech.dreamhack.se" },
+            { "name": "vCenter",           "link": "https://vc.tech.dreamhack.se" },
+            { "name": "alertmanager-sto2", "link": "https://alert-sto2.tech.dreamhack.se" },
+            { "name": "fusion",            "link": "https://fusion.tech.dreamhack.se" },
+            { "name": "request",           "link": "https://request.tech.dreamhack.se/" }
+          ]
+        },
+        "Tools": {
+          "tools": [
+            { "name": "github",      "link": "https://github.com/dhtech" },
+            { "name": "circleci",    "link": "https://circleci.com/gh/dhtech" },
+            { "name": "quay",        "link": "https://quay.io/organization/dhtech" },
+            { "name": "codeclimate", "link": "https://codeclimate.com" },
+            { "name": "monday",      "link": "https://eslfaceitgroup.monday.com/" },
+            { "name": "netbox",      "link": "https://netbox.tech.dreamhack.se" }
+          ]
+        }
+      };
+
+      var localStorageKey = "app_state";
+
+      var default_state = {};
+      Object.keys(data).forEach(function(k) { default_state[k] = true; });
+
+      var saved_state = localStorage.getItem(localStorageKey);
+      var state = saved_state ? JSON.parse(saved_state) : default_state;
+
+      function toggleCircle(circle, is_displayed) {
+        if (is_displayed) {
+          $('.' + circle).show();
+          state[circle] = true;
+        } else {
+          $('.' + circle).hide();
+          state[circle] = false;
+        }
+        localStorage.setItem(localStorageKey, JSON.stringify(state));
+      }
+
+      function buildPortal() {
+        var root = $('#portal-root');
+        var categories = Object.keys(data).sort();
+
+        categories.forEach(function(kategori) {
+          var subcategories = Object.keys(data[kategori]).sort();
+          var links = [];
+          subcategories.forEach(function(sub) {
+            data[kategori][sub].forEach(function(lank) {
+              links.push(lank);
+            });
+          });
+
+          var hidden = state[kategori] === false;
+          var linkHtml = links.map(function(lank) {
+            return '<div id="menu" class="' + kategori + ' col-sm-2"' + (hidden ? ' style="display:none"' : '') + '>' +
+              '<a class="' + lank.name + '" href="' + lank.link + '" alt="' + lank.name + '">' + lank.name + '</a>' +
+              '</div>';
+          }).join('');
+
+          var section =
+            '<div class="row">' +
+              '<div class="container portal-container">' +
+                '<h3 class="portal-kategori text-center">' + kategori + '</h3>' +
+                '<center><button type="button" class="btn btn-sm btn-light" data-circle="' + kategori + '">show/hide</button></center>' +
+                '<div class="row justify-content-center">' + linkHtml + '</div>' +
+              '</div>' +
+            '</div>';
+
+          root.append(section);
+        });
+      }
+
+      $(function() {
+        buildPortal();
+
+        $('.btn').on('click', function() {
+          var circle = $(this).attr('data-circle');
+          toggleCircle(circle, !state[circle]);
+        });
+      });
+    </script>
+
+  </body>
+</html>

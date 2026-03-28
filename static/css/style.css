@@ -85,8 +85,8 @@ body{
   background: #63c url('../img/dns.png') no-repeat center center;
   background-size: 60px 60px;
 }
-#menu a.netflow{
-  background: #fc0 url('../img/graph.png') no-repeat center center;
+#menu a.akvorado{
+  background: #fc0 url('../img/akvorado.png') no-repeat center center;
   background-size: 70px 70px;
   color: #000;
 }
